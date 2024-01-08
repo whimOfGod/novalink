@@ -1,0 +1,70 @@
+#header-left-content>ul>li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+#header-right-content>ul>li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+#header-left-content {
+    display: flex;
+    align-items: center;
+}
+
+#header-right-content {
+    display: flex;
+    align-items: center;
+}
+
+#header-left-content>h2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#header-left-content>ul>li>a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease;
+    font-size:medium;
+    margin-inline: 10px;
+}
+
+#header-right-content>ul>li>a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease;
+    font-size:medium;
+    margin-inline: 10px;
+}
+
+header {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.3s ease;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    -webkit-box-shadow: 0px 15px 24px -32px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 15px 24px -32px rgba(66, 68, 90, 1);
+    box-shadow: 0px 15px 24px -32px rgba(66, 68, 90, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 5em;
+}
+
+header:hover {
+    background-color: rgba(0, 0, 0, 0.21);
+}

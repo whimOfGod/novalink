@@ -1,0 +1,63 @@
+main {
+    height: 60vh;
+    background-image: url('/images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 10%;
+}
+
+#landing-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#landing-content>h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 4em;
+    color: #fff;
+}
+
+#landing-content>.paragraph-description>p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 0;
+    padding-bottom: 2em;
+}
+
+
+.input-search-adress {
+    background-color: rgba(255, 255, 255, 0.217);
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    font-size: larger;
+}
+
+input[type="text"]::placeholder {
+    color: #fff;
+}
+
+
+.button {
+    background-color: white;
+    color: #070707;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    font-size: larger;
+}
+
+.button:hover {
+    background-color: #2F3135;
+    color: #fff;
+}
